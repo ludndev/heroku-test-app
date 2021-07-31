@@ -82,5 +82,4 @@ test:
 production:
   <<: *default
   database: heroku_test_app_production
-  username: heroku_test_app
-  password: <%= ENV['HEROKU_TEST_APP_DATABASE_PASSWORD'] %>
+  url: "postgres://oomuotapemhggi:c792d1916419dc956ce5b363655b7a284f1c93fa96b001ab7b5281ae7374a4ad@ec2-18-211-97-89.compute-1.amazonaws.com:5432/d6s5crefpqrmkr"
